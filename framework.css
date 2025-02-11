@@ -2326,7 +2326,7 @@
 .space-x-3\.5 { margin-left: 0.875rem; /* 14px */ }
 .space-y-3\.5 { margin-top: 0.875rem; /* 14px */ }
 .space-x-4 { margin-left: 1rem; /* 16px */ }
-.space-y-4 { margin-top: 1rem; /* 16px */ }
+.space-y-4 > * + * { margin-top: 1rem; /* 16px */ }
 .space-x-5 { margin-left: 1.25rem; /* 20px */ }
 .space-y-5 { margin-top: 1.25rem; /* 20px */ }
 .space-x-6 { margin-left: 1.5rem; /* 24px */ }
